@@ -1,0 +1,13 @@
+****INSTRUÇÕES DE USO******
+
+
+
+Logaritmo natural=ln(x)
+Logaritmo = log(x)
+n log(x) = log(x**n) N e R
+Exponencial = E**x
+Tangente = tan(x)
+Seno = sin(x)
+Cosseno = cos(x)
+Raiz = sqrt(x)
+Divisão = (numerador) / (denominador)

@@ -53,7 +53,7 @@ def plano_tangente(x, y):
 # z do ponto de tangência
 z0 = plano_tangente(x0, y0)
 
-fn=plano_tangente(x0*x,y0*y)
+fn=plano_tangente(x,y)
 # Criação dos valores de x e y
 x = np.linspace(-10, 10, 100)
 y = np.linspace(-10, 10, 100)
@@ -71,7 +71,7 @@ z_grid_plano_tangente = plano_tangente(x_grid, y_grid)
 # Criação do gráfico 3D
 fig = plt.figure(figsize=(10,7))
 ax = fig.add_subplot(111, projection='3d')
-ax.plot_surface(x_grid, y_grid, Z, cmap='viridis',alpha=0.7)
+ax.plot_surface(x_grid, y_grid, Z, cmap='plasma',alpha=0.7)
 
 # Plota o Ponto de Tangência
 ax.scatter(x0, y0, z0, color='black', s=100)

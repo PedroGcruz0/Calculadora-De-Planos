@@ -90,3 +90,5 @@ ax.set_zlabel('Eixo Z')
 
 # Exibição do gráfico
 plt.show()
+
+#testando outra vez
